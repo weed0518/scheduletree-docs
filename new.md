@@ -55,11 +55,11 @@ graph TD
     
     A3 --> UC10
     
-    %% 스타일 설정
-    classDef actor fill:#e1f5fe,stroke:#01579b,stroke-width:2px
-    classDef usecase fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
-    classDef include stroke-dasharray: 5 5
-    classDef extend stroke-dasharray: 5 5,stroke-width:3px
+    %% 스타일 설정 - 글씨 진하게
+    classDef actor fill:#e1f5fe,stroke:#01579b,stroke-width:2px,color:#000000,font-weight:bold
+    classDef usecase fill:#f3e5f5,stroke:#4a148c,stroke-width:2px,color:#000000,font-weight:bold
+    classDef include stroke-dasharray: 5 5,font-weight:bold
+    classDef extend stroke-dasharray: 5 5,stroke-width:3px,font-weight:bold
     
     class A1,A2,A3 actor
     class UC1,UC2,UC3,UC4,UC5,UC6,UC7,UC8,UC9,UC10,UC11,UC12,UC13 usecase
